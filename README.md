@@ -4,14 +4,14 @@
 
 배포 주소: https://woowa-precourse-open-mission-challe.vercel.app/
 
-<<<<<<< HEAD
-=======
+
 ## 구현 화면
 <img width="1914" height="910" alt="image" src="https://github.com/user-attachments/assets/f9226620-7c8e-4c95-be25-12308d5cb115" />
 <img width="1922" height="913" alt="image" src="https://github.com/user-attachments/assets/2a323598-fd41-4a87-b73d-e57e3d81e074" />
 <img width="1921" height="911" alt="image" src="https://github.com/user-attachments/assets/9e2b91cf-7c99-4969-a522-57bc8817d439" />
 
->>>>>>> d861f1633a3c32b5281603ec293c28ef668367c1
+<br>
+
 > 1~3주차 동안 콘솔에서만 보였던 미션들을,  
 > **콘솔 대신 직관적인 UI로 체험할 수 있도록**
 > 피그마로 디자인하고,
@@ -121,10 +121,9 @@
 
 ---
 
-## 테스트 전략
+## 테스트
 
-- UI와 비즈니스 로직을 분리하기 위해 각 미션의 핵심 로직을 각각 `calculatorCore.js`, `lottoCore.js`, `racingCore.js`로 모듈화.
-- 각 코어 모듈마다 단위 테스트를 작성해 콘솔 미션과 동일한 입·출력 테스트를 진행.
+- 각 주차별 미션의 핵심 로직을 `calculatorCore.js`, `lottoCore.js`, `racingCore.js`로 나누어, 콘솔 미션과 동일한 입·출력 테스트를 진행.
   - `calculatorCore.test.js`
     - 빈 문자열 입력 시 “계산할 값을 입력해 주세요.” 에러를 반환하는지
     - `1,2:3`처럼 콤마/콜론 조합도 합계 6으로 계산하는지
