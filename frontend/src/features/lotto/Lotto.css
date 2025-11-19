@@ -134,6 +134,10 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
 }
 
+.lotto__primary--inline {
+  margin-top: 24px;
+}
+
 .lotto__error {
   color: #d06868;
   text-align: center;
